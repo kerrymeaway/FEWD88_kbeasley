@@ -1,45 +1,47 @@
+
+
+
+/* Kerry's File 
+
+
+#container 
+#header
+#main
+#main h2
+#main p
+#main a:hover
+#main a:visited
+#main a:active
+.line
+.copyright
+.frame
+*/
+
+
 body {
+
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	color: black; 
 	line-height: 1.25;
-	background: url("images/hipster-line.gif") no-repeat;
+
 }
 
 #container {
 	margin: 0 auto;
 	width: 910px;
+	background-image: url("images/hipster-line.gif");
+	background-repeat: no-repeat;
 }
 
 #header {
 	padding: 140px 0 60px 0;
 }
 
-main {
-	padding: 20px;
-}
-
-main p {
-	margin-left: 20px;
-	color: #999999;
-}
-
-#footer {
-	padding: 20px;
-	text-align: right;
-}
-
-h1,h2,h3,h4, p, ul, ol {
-	margin-bottom: 20px;
-}
-
-p {
-	margin: 15px 0;
-}
-
 #header h2 {
   font-size: 16px;
   font-family: Courier;
+  font-size: 135%;
 }
 
 #header h1 {
@@ -55,15 +57,52 @@ p {
   text-transform: uppercase;
 }
 
+#main {
+	padding: 10px 0 60px 0;
+}
+
+#main p {
+	margin-left: 20px;
+	color: #999999;
+	font-size: 98%;
+}
+
+#main h2 {
+	font-size: 300%;
+}
+
+footer {
+	padding: 20px;
+	text-align: right;
+	font-size: 50%;
+}
+/* Above: footer is not an id; no hashtag necessary in CSS
+Also- font needed to be smaller to match the image */
+
+p .footer {
+	font-size: 80%;
+}
+
+h1,h2,h3,h4, p, ul, ol {
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 15px 0;
+  	font-family: courier;
+}
+
 h2 {
   font-size: 32px;
   margin: 4px 0;
   font-weight: normal;
   padding: 0;
   color: #999999;
-  font-name: Courier;
+  font-family: Courier;
   line-height: 2.8em;
 }
+/* Above:Font-family is correct selector */
+
 
 a {
 	color: #cccccc;
@@ -74,13 +113,16 @@ a:visited, a:hover, a:active {
 	color: #000000;
 }
 
-img#frame {
+img.frame {
 	padding: 100px;
 	background: #fcfcfc;
 	border: 1px solid #cccccc;
 	box-shadow: 1px 1px 30px #cccccc;
 }
+/*Above: frame is not an id; it's a class, therefore, a period should be used instead of a hashtag*/
 
 .line {
 	margin: 25px 0;
 	border-bottom: 1px #cccccc solid;
+  	width: 97%;
+
