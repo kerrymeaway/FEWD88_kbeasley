@@ -1,0 +1,169 @@
+body {
+    width: 720px;   
+    padding: 54px;
+    border-left: solid;
+    border-color: #dddddd;
+    border-width: 6px;
+    font-family: "Lato", Helvetica Neue, sans-serif;
+
+}
+
+h1 {
+    color:#fa4542;
+    line-height: 1.5%;
+    font-weight: lighter;
+    font-size: 300%;
+} 
+
+h2 {
+    color: black;
+    font-weight: lighter;
+    font-size: 150%; 
+}
+
+ul {
+    list-style: none;
+    display:inline-block;
+    text-indent: -5%;
+}
+
+
+li {
+    display: inline;
+    text-align: left;
+    padding:3px;
+}
+
+
+img {
+    width:720px;
+}
+
+
+p {
+    letter-spacing: .5px;
+    color: black;
+    font-weight:normal;
+}
+
+
+hr {
+    border-color:#dddddd;
+
+}
+
+a:link {
+    color:#cccccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+
+}
+
+
+.red {
+    color:red;
+    font-weight: bold;
+}
+
+.continue {
+    text-align:right;
+}
+
+
+
+.topnavigation li {
+    font-size: 120%;
+    display: inline;
+    text-align: left;
+    padding:3px;
+}
+
+.bottomnavigation li {
+    list-style: none;
+    color:#cccccc;
+    display: inline;
+    text-align: left;
+    padding:3px;
+
+}
+
+
+
+.date {
+    color:#cccccc;
+    font-weight: lighter;
+    font-size: 190%;
+    line-height: 20%;
+}
+
+
+.posttitle {
+    color:black;
+    font-weight: normal;
+    font-size: 200%;
+    line-height: 20%;
+
+}
+
+
+p.copyright {
+    color: #bbbbbb;
+    font-size: 50%;
+
+}
+    
+
+.bottomnavigation a {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+Article Title
+    black
+
+Copyright
+    #bbbbbb
+
+  
+
+
+
+
+Date: 
+    #cccccc
+
+Navigation links hover:
+    black
+
+High-level text properties:
+    #444444
+    "Lato" font
+    1.5 line-height
+
+"Better Dressed People":
+    black
+Links:
+    #DD0000
+
+Links hover:
+    #aa0000
+
+Navigation links:
+    #dddddd
+
+
+    */
