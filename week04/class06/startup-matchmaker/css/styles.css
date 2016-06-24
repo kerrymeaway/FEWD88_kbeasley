@@ -1,0 +1,208 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+
+html {
+	width: 1000px;
+}
+
+#wrapper {
+	width: 1000px;
+}
+
+header {
+	height: 70px;
+	width: 1000px;
+	background-color: black;	
+	}
+
+
+nav li a {
+	float: right;
+	display: inline-block;
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 50px;
+	text-decoration: none;	
+	margin: 7px;
+	padding-right: 10px;
+}
+
+#brains {	
+	height: 50px;
+	width: 1000px;
+	background-color: #d9d9d9;
+	border-top-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+	}
+
+#brains p {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 19px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+}	
+
+.strike {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.underline {
+	text-underline-position: under;
+	text-decoration-color: yellow;
+} /*text-decoration-color selector is not supported by google chrome*/
+
+#image {
+	height: 350px;
+	width: 1000px;
+	background-position: center;
+	overflow: hidden;
+	background-image: url("../img/coworking.jpg");
+	clear: both;
+}
+
+#ghostbox {
+	background-color: rgba(255, 255, 255, .6);
+	height: 290px;
+	width: 400px;
+	float:right;
+	text-align: left;
+	box-shadow: 1px 1px 1px 1px #4d4d4d;
+	margin:30px;
+}
+
+#ghostext {
+	width: 320px;
+	margin: 40px;		
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#ghostext p {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#ghostext h3 {
+	color: black;
+	font-size: 25px;
+	font-weight:bolder;
+}	
+		
+
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 24px;
+	color: yellow;
+	float: left;
+	line-height: 65px;
+	padding-left: 20px;
+}
+
+h2 {
+	color:black;
+	font-family: 'Merriweather', serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+#trio {
+	height: 255px;
+	width: 1000px;
+	font-family: 'Merriweather', serif;
+	background-color: #e6e6e6;
+}
+
+.box {
+	width: 280px;
+	height: 200px;
+	float: left;
+	margin-right: 1px;
+	padding-top: 32px;
+	padding-right: 20px; 
+	padding-bottom: 20px;
+	padding-left: 30px; 
+}
+
+
+.box p {
+	border-right-style: solid;
+	border-right-color: #bfbfbf;
+	border-right-width: 1px;
+}
+
+.boxend {
+	width: 280px;
+	height: 200px;
+	float: left;
+	margin-right: 1px;
+	padding-top: 32px;
+	padding-right: 20px; 
+	padding-bottom: 20px;
+	padding-left: 20px; 
+
+}
+
+
+.boxend p {
+	border-right-style: solid;
+	border-right-color: #e6e6e6;
+	border-right-width: 0px;
+}
+
+
+
+button.yellow {
+	height: 50px;
+	width: 330px;
+	background-color: yellow;
+	box-shadow: 0px 0px .5px 0px #4d4d4d;
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+button.grey {
+	height: 50px;
+	width: 230px;
+	background-color: #cccccc;
+	box-shadow: 0px 0px .5px 0px #4d4d4d;
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+footer {
+	margin-top: -11px;
+	height: 100px;
+	width: 1000px;
+	background-color: black;	
+}
+
+footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 25px;
+	color: white;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
