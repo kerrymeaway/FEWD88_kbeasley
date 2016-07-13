@@ -1,0 +1,111 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#container {
+	width: 100%;
+	background-image: url("../images/drawingcolor.png");
+	opacity: .5;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top:-100px;
+}
+
+#title {
+	margin-top:100px;
+}
+
+#hometext {
+	opacity: 0.5;
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+/*background-image: url("../images/");*/
+
+#title  h1 {
+	/*color: white;
+	opacity: 0.5;*/
+	color:black;
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 150%;
+	text-align: right;
+}
+
+
+#container a {
+	color: orange;
+	text-decoration: none;
+	list-style: none;
+}
+
+#container  h2 {
+	/*color: white;
+	opacity: 0.5;*/
+	color:black;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 125%;
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 10%;
+}
+
+#container nav ul {
+	/*color: white;*/
+	margin-left: 20%;
+	margin-top -20px;
+}
+
+
+#container li {
+	/*color: white;*/
+	color:black;
+	margin: 5px;
+}
+
+#hometext h1 {
+	/*color: white;*/
+	color:black;
+	font-weight: bold;
+	font-size: 6em;
+	line-height: 150%;
+	text-align: right;
+}
+
+#hometext h3 {
+	/*color: white;*/
+	color:black;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 125%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+
+p {
+	/*color: white;*/
+	color:black;
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 150%;
+	columns: 2;
+	column-gap: 5px;
+	column-width: 300px;
+	text-align: left;
+	margin: 0 auto;
+
+}
+
+
+footer {
+	opacity: .5;
+}
+
+

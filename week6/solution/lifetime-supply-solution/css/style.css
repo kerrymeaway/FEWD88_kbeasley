@@ -1,0 +1,19 @@
+body {
+	background-color: #3498db;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: white;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	border-color: black;
+	border-width: 2px;
+	background-color: pink;
+}

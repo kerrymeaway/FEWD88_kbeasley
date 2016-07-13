@@ -1,0 +1,112 @@
+html body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: black;
+	background-color: #f8f9f9; /*pale gray*/
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	/*background-image: url("../images/drawingcolor.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	*/
+}
+
+#hometext {
+	width: 60%;
+	background-image: url("../images/placeholder.png");
+	background-position: center;
+	margin: 0 auto;
+}	
+
+#hometext h1 {
+	font-size: 3em;
+	font-weight: bolder;
+	text-align: right;
+	line-height: 120%;
+	margin-right: 125px;
+}
+
+#hometext h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: right;
+	line-height: 120%; 
+	margin-right: 30px;
+}
+
+/*.social ul li a {
+	color: white;
+	opacity: .75;
+}
+
+.social ul li a:hover {
+	color: white;
+	opacity: .95;
+}
+Why can't I change the social 
+icons' opacity for the hover state anymore?
+*/
+
+#hometext nav {
+	width: 100px;
+	float: right;
+}
+
+#hometext li a {
+	color: #fda750;  /*pale orange*/
+	line-height: 120%;
+	font-weight: bolder;
+	font-size: 1.5em;
+	list-style: none;
+	text-decoration: none;	
+}
+
+#hometext nav li a:hover {
+	color: #fd9728;  /*intense orange*/
+	width: 200px;
+	line-height: 120%;
+	font-weight: bolder;
+	font-size: 1.6em;
+	list-style: none;
+	text-decoration: none;	
+}
+
+#hometext nav ul {
+	text-align: right;
+	margin: 2% 2%;
+}
+
+#hometext img {
+	padding: 10px;
+}
+
+.content {
+	width: 70%;
+	background-color:rgba(255, 255, 255, 0.5);
+	margin-top: -45%;
+	margin-left: 25px; 
+	padding: 15px;
+}
+
+.content h3 {
+	color: black;
+	font-weight: bolder;
+	font-size: 135%;
+	line-height: 25px;
+	margin: 10px 0 10px 0;
+}
+
+
+.content p {
+	columns: 2;
+	column-gap: 25px;
+	line-height: 140%;
+}
+
+
+
+
+
